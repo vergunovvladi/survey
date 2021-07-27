@@ -15,7 +15,6 @@ modalButtonNo.addEventListener('mouseenter', (event) => {
 let x = 0;
 
 const lol = function () {
-    console.log(modalButtonNo.getBoundingClientRect().top);
-    modalButtonNo.style.top = (Math.random() * (window.innerHeight - modalButtonNo.getBoundingClientRect().height)) - 422.5 + 'px';
-    
+    let windowHeight = window.innerHeight;
+    modalButtonNo.style.top = (Math.random() * (window.innerHeight - modalButtonNo.getBoundingClientRect().height)) - 'хз что тут' + 'px';
 }
