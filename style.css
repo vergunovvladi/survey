@@ -84,6 +84,11 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    user-select: none;
+}
+
+.modal__button--no {
+    position: relative;
 }
 
 .modal__button:hover {
